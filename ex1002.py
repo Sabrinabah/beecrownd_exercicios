@@ -1,7 +1,6 @@
-pi = 3.14159
-r = float(input('Digite o tamanho do raio: '))
+raio = float(input())
+n = 3.14159
 
-area = pi * r ** 2
+area = n*raio*raio
 
-print('A = ', round(area,4))
-
+print("A=%.4f"% area)

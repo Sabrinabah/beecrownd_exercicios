@@ -1,7 +1,6 @@
-num1 = int(input('digite um numero: '))
-num2 = int(input('digite outro numero: '))
+a = int(input())
+b = int(input())
 
-x = num1+num2
+x = a + b
 
-print('X = ', x)
-
+print("X = %d" %x)
